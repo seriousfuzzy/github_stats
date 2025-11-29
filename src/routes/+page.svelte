@@ -430,7 +430,7 @@
                 <h4>GitHub README埋め込み</h4>
                 <button
                     class="copy-icon-btn"
-                    on:click={() => copyToClipboard(`![Developer Score](my_vercel_domail/api/stats/${username}?theme=${selectedTheme})`, 'readme')}
+                    on:click={() => copyToClipboard(`![Developer Score](https://github-stats-seriousfuzzy.vercel.app/api/stats/${username}?theme=${selectedTheme})`, 'readme')}
                     title="コピー"
                 >
                     {#if copyMessage === 'readme'}
@@ -443,14 +443,14 @@
                     {/if}
                 </button>
                 <div class="code-block">
-                    <code>![Developer Score](my_vercel_domail/api/stats/{username}?theme={selectedTheme})</code>
+                    <code>![Developer Score](https://github-stats-seriousfuzzy.vercel.app/api/stats/{username}?theme={selectedTheme})</code>
                 </div>
             </div>
             <div class="card">
                 <h4>HTML埋め込み</h4>
                 <button
                     class="copy-icon-btn"
-                    on:click={() => copyToClipboard(`<img src="my_vercel_domail/api/stats/${username}?theme=${selectedTheme}" alt="Developer Score">`, 'html')}
+                    on:click={() => copyToClipboard(`<img src="https://github-stats-seriousfuzzy.vercel.app/api/stats/${username}?theme=${selectedTheme}" alt="Developer Score">`, 'html')}
                     title="コピー"
                 >
                     {#if copyMessage === 'html'}
@@ -463,7 +463,7 @@
                     {/if}
                 </button>
                 <div class="code-block">
-                    <code>&lt;img src="my_vercel_domail/api/stats/{username}?theme={selectedTheme}" alt="Developer Score"&gt;</code>
+                    <code>&lt;img src="https://github-stats-seriousfuzzy.vercel.app/api/stats/{username}?theme={selectedTheme}" alt="Developer Score"&gt;</code>
                 </div>
                 <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem;">
                     Webサイトやポートフォリオに

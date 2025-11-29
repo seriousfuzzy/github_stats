@@ -1,4 +1,4 @@
-![Developer Score](my_vercel_domail/api/stats/seriousfuzzy?r=2)
+![Developer Score](https://github-stats-seriousfuzzy.vercel.app/api/stats/seriousfuzzy?r=2)
 
 GitHubユーザーの公開統計情報を分析し、**コード行数を重視**した独自のスコアリングで開発者スキルを評価・可視化するリドミデコ
 
@@ -53,12 +53,12 @@ GitHubユーザーの公開統計情報を分析し、**コード行数を重視
 
 #### README.mdに埋め込み
 ```markdown
-![GitHub Developer Score](my_vercel_domail/api/stats/seriousfuzzy)
+![GitHub Developer Score](https://github-stats-seriousfuzzy.vercel.app/api/stats/seriousfuzzy)
 ```
 
 #### HTMLに埋め込み
 ```html
-<img src="my_vercel_domail/api/stats/seriousfuzzy" alt="GitHub Developer Score">
+<img src="https://github-stats-seriousfuzzy.vercel.app/api/stats/seriousfuzzy" alt="GitHub Developer Score">
 ```
 
 
